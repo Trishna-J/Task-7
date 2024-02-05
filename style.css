@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+body {
+    background-image: url(Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.box1 {
+    width: 300px;
+   height: 400px;
+    background-color: #013243;
+    color: white;
+    padding: 30px;
+    text-align: center;
+   border-radius: 10px 0px 0px 10px;
+
+}
+
+.box2 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+
+
+p {
+    color: rgb(170, 173, 187);
+   text-align: center;
+   padding: 10px;
+    font-size: small;
+
+}
+
+
+
+.image-box  img{
+    margin-top:-60px;
+    margin-left: -30px;
+   width:300px;
+   height:auto;
+}
+
+
+.login {
+    color: black;
+    margin: 30px;
+    font-weight: 700;
+
+
+}
+
+.form {
+    margin: 30px;
+}
+
+input{
+    margin-top: 5px;
+    max-width: 100%;
+    padding: 10px;
+    border-color: #ccc;
+    border-style:double;
+    
+
+}
+
+.password {
+    margin-top: 15px;
+}
+
+.colored-text {
+    color: #013243;
+    font-weight: 600;
+    font-size: small;
+    text-decoration: underline;
+
+
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 60%;
+    height: 10%;
+    color: white;
+    background-color: #013243;
+    font-weight: 500;
+
+}
+
+.custom-checkbox {
+    margin-left: 34px;
+
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: default;
+    /* Disable the cursor pointer */
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: first baseline;
+}
+
+.checkbox-text {
+    margin-left: 8px;
+
+    font-size: smaller;
+
+}
+
+.email {
+    font-weight: 600;
+    font-size: small;
+}
+
+.password {
+    font-weight: 600;
+
+    font-size: small;
+}
